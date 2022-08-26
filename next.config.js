@@ -2,6 +2,7 @@
 const nextConfig = {
   reactStrictMode: true,
   experimental: {
+    outputStandalone: true,
     newNextLinkBehavior: true,
     images: {
       allowFutureImage: true,
